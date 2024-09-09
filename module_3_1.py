@@ -3,6 +3,7 @@ calls = 0
 def count_calls():
     global calls
     calls += 1
+    return calls
 
 def string_info(string):
     global calls
